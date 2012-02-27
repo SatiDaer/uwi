@@ -7,12 +7,13 @@ gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development do
-  gem 'rspec-rails', '2.0.1'
+  gem 'rspec-rails'
 end
 
 group :test do
   gem 'rspec'
   gem 'webrat'
+  gem 'spork'
 end
 
 # Use unicorn as the web server
